@@ -146,11 +146,11 @@ def main():
         draw_first_layer()
         draw_second_layer()
         draw_other_layers()
-
+        
+        print("Done!")
         mainloop()
 
 if __name__ == "__main__":
         # Информационный принт
         print("Start drawing....")
         main()
-        print("Done!")
